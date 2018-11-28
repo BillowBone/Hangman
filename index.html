@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Hangman</title>
+</head>
+
+<body>
+    <h1>Hangman</h1>
+    <span>
+        <label for="enterWord" id="labelEnterWord"><br />Enter the secret word to play with : </label>
+        <input type="text" name="enterWord" id="enterWord" maxlength="18" />
+    </span>
+    <span>
+        <pre id="gallows"></pre>
+        <pre id="displaySecretWord"></pre>
+        <pre id="displayTriedCharacters"></pre>
+        <span id="inputCharacter">
+            <label for="enterChar" id="labelEnterChar">Enter a new character : </label>
+            <input type="text" name="enterChar" id="enterChar" maxlength="1" />
+        </span>
+    </span>
+    <p><button id="confirm" type="submit">Confirm</button></p>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
